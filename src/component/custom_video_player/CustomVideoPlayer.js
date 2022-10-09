@@ -15,7 +15,7 @@ import Video from 'react-native-video';
 import Slider from 'react-native-sliders';
 import Orientation from 'react-native-orientation-locker';
 
-const GpVideoPlayer = props => {
+const CustomVideoPlayer = props => {
   const {
     style = {},
     source,
@@ -668,4 +668,4 @@ const GpVideoPlayer = props => {
   );
 };
 
-export default GpVideoPlayer;
+export default CustomVideoPlayer;

@@ -1,12 +1,12 @@
 import React from 'react';
 import {View, Dimensions, Platform} from 'react-native';
-import GpVideoPlayer from './component/gp_video_player/GpVideoPlayer';
+import CustomVideoPlayer from './component/custom_video_player/CustomVideoPlayer';
 
 const Dashboard = () => {
   const dimension = Dimensions.get('window');
   return (
     <View style={{flex: 1, backgroundColor: 'white', backgroundColor: 'white'}}>
-      <GpVideoPlayer
+      <CustomVideoPlayer
         style={{
           width: dimension.width,
           height: 250,
