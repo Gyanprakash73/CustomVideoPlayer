@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, Dimensions, Platform} from 'react-native';
-import CustomVideoPlayer from './component/custom_video_player/CustomVideoPlayer';
+import CustomVideoPlayer from './component/CustomVideoPlayer/CustomVideoPlayer';
 
 const Dashboard = () => {
   const dimension = Dimensions.get('window');
