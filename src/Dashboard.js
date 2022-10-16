@@ -5,7 +5,7 @@ import CustomVideoPlayer from './component/CustomVideoPlayer/CustomVideoPlayer';
 const Dashboard = () => {
   const dimension = Dimensions.get('window');
   return (
-    <View style={{flex: 1, backgroundColor: 'white', backgroundColor: 'white'}}>
+    <View style={{flex: 1, backgroundColor: 'white'}}>
       <CustomVideoPlayer
         style={{
           width: dimension.width,
